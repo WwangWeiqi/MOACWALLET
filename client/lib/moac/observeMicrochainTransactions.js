@@ -6,8 +6,8 @@ Add a pending transaction to the transaction list, after sending
 
 @method addTransactionAfterSend
 */
-chain3.setScsProvider(new chain3.providers.HttpProvider('http://localhost:8548'));
-scs_list = chain3.scs.getMicroChainList();
+// chain3.setScsProvider(new chain3.providers.HttpProvider('http://localhost:8548'));
+// scs_list = chain3.scs.getMicroChainList();
 var scs_block = Session.get('blockNumber');
 
 
